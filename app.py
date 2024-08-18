@@ -87,7 +87,6 @@ def main():
     page = st.sidebar.radio("Select", ["Recipe", "Cook With ME"])
 
     if page == "Recipe":
-        st.markdown("<h1 style='color: #3498DB; font-family: Arial; text-align: center;'>FIND RECIPE </h1>", unsafe_allow_html=True)
 
         st.markdown("<p style='font-size: 16px; color: #555; font-weight: bold;'>Enter the preparation time, nutritional information, and ingredients to get recipe recommendations:</p>", unsafe_allow_html=True)
         prep_time = st.number_input('Preparation Time (minutes)', min_value=0.0, format="%.0f")
@@ -114,7 +113,6 @@ def main():
     elif page == "Cook With ME":
         
 
-        st.markdown("<h1 style='color: #f00; font-family: Arial; text-align: center;'>Chat</h1>", unsafe_allow_html=True)
         st.markdown("<p style='font-size: 18px; font-weight: bold;'>Ask About Your recipe Here.</p>", unsafe_allow_html=True)
         
         if 'chat_history' not in st.session_state:
