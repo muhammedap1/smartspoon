@@ -1,0 +1,12 @@
+https://colab.research.google.com/drive/1p3RVhcFTiLDhjWEHNnjwZebVfMhCUFlJ?authuser=4#scrollTo=TEtbc5b0U5xZ = Fine tuning with TF-small
+
+
+https://colab.research.google.com/drive/1EmiBeGU_HLSePEkaMe7JG6w9Ovt7Cnas?authuser=2#scrollTo=hj7sag58cXbZ  = Fine-tune with GPT2
+
+
+
+https://colab.research.google.com/drive/1YI3ZLjfjaLEwEZxvn6cJiB03QO2Uc1Ic = Mistral-7b
+
+
+
+https://colab.research.google.com/drive/1zWRNxlq6naRaECKdphG4Q8oXlcB1156d?authuser=1   = PDF-Reading using langchain
