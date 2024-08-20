@@ -41,6 +41,17 @@ A Streamlit app was created to provide recipe recommendations based on user inpu
 Clone the repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/muhammedap1//smartspoon.git
+cd smartspoon
 pip install -r requirements.txt
+
+
+## Future works
+- Improving LLM model performance for cooking directions.
+- Integrating more dietary and allergy considerations into the recommendation system.
+- Enhancing the chatbot's contextual understanding.
+
+
+## License
+
+This project is licensed under the MIT License.
