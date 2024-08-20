@@ -13,9 +13,9 @@ load_dotenv()
 import os
 import google.generativeai as genai
 def main():
-    st.set_page_config(page_title="SmartSpoon")
+    st.set_page_config(page_title="SmartSpoon🥄🍳👩")
 
-    st.markdown("<h1 style='text-align: center; font-size: 48px;'>SmartSpoon</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; font-size: 48px;'>SmartSpoon🥄🍳👩</h1>", unsafe_allow_html=True)
 
 
     genai.configure(api_key=os.getenv('google_api_key'))
@@ -119,7 +119,7 @@ def main():
             st.session_state['chat_history']=[]
         
         user_input=st.text_input('Input:',key='input')
-        submit=st.button("Ask any qustion about the food")
+        submit=st.button("Ask")
         
         if submit and user_input :
             response=get_gemini_response(user_input)
