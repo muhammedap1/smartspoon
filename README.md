@@ -44,6 +44,7 @@ Clone the repository and install the required dependencies:
 git clone https://github.com/muhammedap1//smartspoon.git
 cd smartspoon
 pip install -r requirements.txt
+```
 
 
 ## Future works
