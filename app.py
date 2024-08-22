@@ -142,27 +142,3 @@ def main():
 if __name__ == "__main__":
     main()
         
-    # def get_gemini_response(prompt):
-    #     chat = model.start_chat(history=[])
-    #     response = chat.send_message(prompt, stream=True)
-    #     return response
-
-    # if 'messages' not in st.session_state:
-    #     st.session_state.messages = []
-
-    # def generate_response():
-    #     query = st.session_state.input
-    #     st.session_state.messages.append({"role": "user", "content": query})
-
-    #     response = get_gemini_response(query)
-    #     for chunk in response:
-    #         st.session_state.messages.append({"role": "assistant", "content": chunk.text})
-
-    # for message in st.session_state.messages:
-    #     with st.chat_message(message["role"]):
-    #         st.write(message["content"])
-
-    # input = st.chat_input("Your message")
-    # if input:
-    #     st.session_state.input = input
-    #     generate_response()
