@@ -21,7 +21,7 @@ A separate dataset (`data_for_llm`) was created to train a Large Language Model 
 - **PDF Reading Model**: Additionally, a PDF reading model was developed using Mistral, which provided satisfactory results.
 
 ### 4. Continuous Chatbot Development
-A continuous chatbot was developed using the Gemini Pro API. This chatbot allows users to interact seamlessly, providing cooking instructions and assistance in a continuous conversation format.
+A continuous chatbot was developed using the Gemini Pro API, built on a Retrieval-Augmented Generation (RAG) architecture. This chatbot allows users to interact seamlessly, providing cooking instructions and assistance in a continuous conversation format.
 
 ### 5. Streamlit Application
 A Streamlit app was created to provide recipe recommendations based on user inputs:
